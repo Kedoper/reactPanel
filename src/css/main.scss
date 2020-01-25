@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #edede9;
+}
+
+.centerPage {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  &__form-wrapper {
+    width: 700px;
+  }
+}
+
+.sideBarPages {
+  & > .ant-layout-sider-children {
+    position: relative;
+  }
+}

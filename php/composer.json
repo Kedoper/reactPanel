@@ -1,0 +1,14 @@
+{
+    "name": "kedoper/panel-php",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Kedo",
+            "email": "n.anoshin@icloud.com"
+        }
+    ],
+    "require": {
+        "klein/klein": "^2.1",
+        "phpgangsta/googleauthenticator": "dev-master"
+    }
+}
